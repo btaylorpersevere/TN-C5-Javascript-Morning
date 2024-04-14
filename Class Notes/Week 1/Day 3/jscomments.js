@@ -8,7 +8,7 @@ This is a multiline comment
  JavaScript is the language of the web  
  */
 
- console.log(2 + 3) // Addition
+console.log(2 + 3) // Addition
 console.log(3 - 2) // Subtraction
 console.log(2 * 3) // Multiplication
 console.log(3 / 2) // Division

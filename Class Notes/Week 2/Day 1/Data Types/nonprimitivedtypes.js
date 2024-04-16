@@ -13,7 +13,10 @@
 
 // console.log(nums)  // [10, 2, 3]
 
-// //As you can see, an array, which is a non-primitive data type is mutable. Non-primitive data types cannot be compared by value. Even if two non-primitive data types have the same properties and values, they are not strictly equal.
+// //As you can see, an array, which is a non-primitive data type is mutable. 
+// //Non-primitive data types cannot be compared by value. 
+// //Even if two non-primitive data types have the same properties and values,
+// // they are not strictly equal.
 
 // let nums = [1, 2, 3]
 // let numbers = [1, 2, 3]

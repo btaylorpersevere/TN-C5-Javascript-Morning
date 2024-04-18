@@ -1,9 +1,9 @@
 let a = 5;
 let b = 7;
-a = b + 2; // Line 3
+a = b + 2; // Line 3  9
 b = 10;    // Line 4
-a = a * b;  // Line 5
-b = b + a; // Line 6
+a = a * b;  // Line 5   90
+b = b + a; // Line 6   100
 
 // What is the value of a...
 // ... after line 3 executes?

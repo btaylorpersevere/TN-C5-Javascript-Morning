@@ -1,4 +1,4 @@
-//declaring a function without a parameter
+// //declaring a function without a parameter
 // function functionName() {
 //     // code goes here
 //       console.log("Hello World")
@@ -17,19 +17,22 @@
   // function without parameter,  a function which make a number square
 // 
   
-//   // function without parameter
-let numOne = 10 //global variable
-let numTwo = 20  //global variable
+// //   // function without parameter
+// let numOne = 10 //global variable - can be used anywhere in your code
+// let numTwo = 20  //global variable
 
    function addTwoNumbers() { 
-     let sum = numOne + numTwo
+    let numOne = 10 //global variable - can be used anywhere in your code
+    let numTwo = 20 
+    let sum = numOne + numTwo //sum is a local variable because it's defined in the curly brackets
     console.log(sum)
    }
+   
     addTwoNumbers() // a function has to be called by its name to be executed 
 
     function subTwoNumbers() {
-        numOne = 400
-        numTwo= 200
+       let numOne = 400
+        let numTwo= 200
         let dif = numTwo - numOne
        console.log(dif)
       }

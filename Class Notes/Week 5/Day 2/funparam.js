@@ -1,77 +1,77 @@
-//Fiunctions with parameters
+// //Fiunctions with parameters
 
-// function with one parameter
-function functionName(parm1) {
-    //code goes her
-  }
-  functionName(parm1) // during calling or invoking one argument needed
+// // function with one parameter
+// function functionName(parm1) {
+//     //code goes her
+//   }
+//   functionName(parm1) // during calling or invoking one argument needed
   
-  function areaOfCircle(r) {
-    let area = Math.PI * r * r
-    return area
-  }
+//   function areaOfCircle(r) {
+//     let area = Math.PI * r * r
+//     return area
+//   }
   
-  console.log(areaOfCircle(10)) // should be called with one argument
+//   console.log(areaOfCircle(10)) // should be called with one argument
   
-  function square(number) {
-    return number * number
-  }
+//   function square(number) {
+//     return number * number
+//   }
   
-  console.log(square(10))
+//   console.log(square(10))
 
 
 
-  //Functions with two parameters
+//   //Functions with two parameters
 
-  // function with two parameters
-function functionName(parm1, parm2) {
-    //code goes her
-  }
-  functionName(parm1, parm2) // during calling or invoking two arguments needed
-  // Function without parameter doesn't take input, so lets make a function with parameters
-  function sumTwoNumbers(numOne, numTwo) {
-    let sum = numOne + numTwo
-    console.log(sum)
-  }
-  sumTwoNumbers(10, 20) // calling functions
-  // If a function doesn't return it doesn't store data, so it should return
+//   // function with two parameters
+// function functionName(parm1, parm2) {
+//     //code goes her
+//   }
+//   functionName(parm1, parm2) // during calling or invoking two arguments needed
+//   // Function without parameter doesn't take input, so lets make a function with parameters
+//   function sumTwoNumbers(numOne, numTwo) {
+//     let sum = numOne + numTwo
+//     console.log(sum)
+//   }
+//   sumTwoNumbers(10, 20) // calling functions
+//   // If a function doesn't return it doesn't store data, so it should return
   
-  function sumTwoNumbers(numOne, numTwo) {
-    let sum = numOne + numTwo
-    return sum
-  }
+//   function sumTwoNumbers(numOne, numTwo) {
+//     let sum = numOne + numTwo
+//     return sum
+//   }
   
-  console.log(sumTwoNumbers(10, 20))
-  function printFullName(firstName, lastName) {
-    return `${firstName} ${lastName}`
-  }
-  console.log(printFullName('Asabeneh', 'Yetayeh'))
+//   console.log(sumTwoNumbers(10, 20))
+//   function printFullName(firstName, lastName) {
+//     return `${firstName} ${lastName}`
+//   }
+//   console.log(printFullName('Asabeneh', 'Yetayeh'))
 
-  //Functions with many parameters
+//   //Functions with many parameters
 
-  // function with multiple parameters
-function functionName(parm1, parm2, parm3,...){
-    //code goes here
-  }
-  functionName(parm1,parm2,parm3,...) // during calling or invoking three arguments needed
+//   // function with multiple parameters
+// function functionName(parm1, parm2, parm3,...){
+//     //code goes here
+//   }
+//   functionName(parm1,parm2,parm3,...) // during calling or invoking three arguments needed
   
   
-  // this function takes array as a parameter and sum up the numbers in the array
-  function sumArrayValues(arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-      sum = sum + arr[i];
-    }
-    return sum;
-  }
-  const numbers = [1, 2, 3, 4, 5];
-      //calling a function
-  console.log(sumArrayValues(numbers));
+//   // this function takes array as a parameter and sum up the numbers in the array
+//   function sumArrayValues(arr) {
+//     let sum = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//       sum = sum + arr[i];
+//     }
+//     return sum;
+//   }
+//   const numbers = [1, 2, 3, 4, 5];
+//       //calling a function
+//   console.log(sumArrayValues(numbers));
   
   
-      const areaOfCircle = (radius) => {
-        let area = Math.PI * radius * radius;
-        return area;
-      }
-  console.log(areaOfCircle(10))
+//       const areaOfCircle = (radius) => {
+//         let area = Math.PI * radius * radius;
+//         return area;
+//       }
+//   console.log(areaOfCircle(10))
   

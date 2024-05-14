@@ -6,8 +6,7 @@
 
 The same groups apply to both men and women.
 Underweight: BMI is less than 18.5
-Normal weight: BMI is 18.5 to 24.9
-Overweight: BMI is 25 to 29.9
+upOverweight: BMI is 25 to 29.9
 Obese: BMI is 30 or more
 
 4.  Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.

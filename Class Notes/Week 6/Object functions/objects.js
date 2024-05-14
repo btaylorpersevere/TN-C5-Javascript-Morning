@@ -7,25 +7,25 @@
 //Creating an objecting with values
 // Now, the person object has firstName, lastName, age, location, skills and isMarried properties. The value of properties or keys could be a string, number, boolean, an object, null, undefined or a function.
 
-  // const person = {
-  //   firstName: 'Asabeneh',
-  //   lastName: 'Yetayeh',
-  //   age: 250,
-  //   country: 'Finland',
-  //   city: 'Helsinki',
-  //   skills: [
-  //     'HTML',
-  //     'CSS',
-  //     'JavaScript',
-  //     'React',
-  //     'Node',
-  //     'MongoDB',
-  //     'Python',
-  //     'D3.js'
-  //   ],
-  //   isMarried: true
-  // }
-  // console.log(person)
+  const person = {
+    firstName: 'Asabeneh',
+    lastName: 'Yetayeh',
+    age: 250,
+    country: 'Finland',
+    city: 'Helsinki',
+    skills: [
+      'HTML',
+      'CSS',
+      'JavaScript',
+      'React',
+      'Node',
+      'MongoDB',
+      'Python',
+      'D3.js'
+    ],
+    isMarried: true
+  }
+  console.log(person)
 
   //Getting values from an object
 // We can access values of object using two methods:

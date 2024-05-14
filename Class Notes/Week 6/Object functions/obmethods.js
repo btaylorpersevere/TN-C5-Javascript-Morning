@@ -1,28 +1,28 @@
 // //Creating object methods
 // // Now, the person object has getFullName properties. The getFullName is function inside the person object and we call it an object method. The this key word refers to the object itself. We can use the word this to access the values of different properties of the object. We can not use an arrow function as object method because the word this refers to the window inside an arrow function instead of the object itself. Example of object:
 
-// const person = {
-//     firstName: 'Asabeneh',
-//     lastName: 'Yetayeh',
-//     age: 250,
-//     country: 'Finland',
-//     city: 'Helsinki',
-//     skills: [
-//       'HTML',
-//       'CSS',
-//       'JavaScript',
-//       'React',
-//       'Node',
-//       'MongoDB',
-//       'Python',
-//       'D3.js'
-//     ],
-//     getFullName: function() {
-//       return `${this.firstName} ${this.lastName}`
-//     }
-//   }
+// // const person = {
+// //     firstName: 'Asabeneh',
+// //     lastName: 'Yetayeh',
+// //     age: 250,
+// //     country: 'Finland',
+// //     city: 'Helsinki',
+// //     skills: [
+// //       'HTML',
+// //       'CSS',
+// //       'JavaScript',
+// //       'React',
+// //       'Node',
+// //       'MongoDB',
+// //       'Python',
+// //       'D3.js'
+// //     ],
+// //     getFullName: function() {
+// //       return `${this.firstName} ${this.lastName}`
+// //     }
+// //   }
   
-//   console.log(person.getFullName())
+// //   console.log(person.getFullName())
 // //   // Asabeneh 
 // //   console.log(person.country)
 // // console.log(person.city)
@@ -97,8 +97,8 @@ const person = {
     }
   }
   
-  //Object methods: Object.assign, Object.keys, Object.values, Object.entries
-  //hasOwnProperty
+//   //Object methods: Object.assign, Object.keys, Object.values, Object.entries
+//   //hasOwnProperty
   
   const copyPerson = Object.assign({}, person)
   console.log(copyPerson)
@@ -110,15 +110,15 @@ console.log(keys) //['firstName', 'age', 'country','city', 'skills','title', 'ad
 const address = Object.keys(copyPerson.address)
 console.log(address) //['street', 'pobox', 'city']
 
-// Getting object keys and values using Object.entries()
-// Object.entries:To get the keys and values in an array
+// // Getting object keys and values using Object.entries()
+// // Object.entries:To get the keys and values in an array
 
-const entries = Object.entries(copyPerson)
-console.log(entries)
+// const entries = Object.entries(copyPerson)
+// console.log(entries)
 
 
-// Checking properties using hasOwnProperty()
-// hasOwnProperty: To check if a specific key or property exist in an object
+// // Checking properties using hasOwnProperty()
+// // hasOwnProperty: To check if a specific key or property exist in an object
 
-console.log(copyPerson.hasOwnProperty('name'))
-console.log(copyPerson.hasOwnProperty('score'))
+// console.log(copyPerson.hasOwnProperty('name'))
+// console.log(copyPerson.hasOwnProperty('score'))

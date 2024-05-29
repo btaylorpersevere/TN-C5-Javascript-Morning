@@ -1,10 +1,10 @@
-// For loop structure
-// for(initialization, condition, increment/decrement){
-//   }
+//For loop structure
+for(initialization, condition, increment/decrement){
+  }
 
-//   for(let i = 0; i < 10; i++){
-//     console.log(i, "Hello")
-//   }
+  for(let i = 0; i < 10; i++){
+    console.log(i, "Hello")
+  }
   
 //   // 0 1 2 3 4 5
 

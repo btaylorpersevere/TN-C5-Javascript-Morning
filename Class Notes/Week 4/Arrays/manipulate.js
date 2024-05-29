@@ -50,7 +50,7 @@ console.log(numbers.slice(1,4)) // -> [2,3,4] // it doesn't include the ending p
 
 
 // Splice method in array
-// Splice: It takes three parameters:Starting position, number of times to be removed and number of items to be added.
+// Splice: It takes three parameters:Starting position, number of items to be removed and number of items to be added.
 
 const numbers = [1, 2, 3, 4, 5]
 numbers.splice()

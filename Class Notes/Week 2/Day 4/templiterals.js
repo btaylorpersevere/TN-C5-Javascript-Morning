@@ -26,9 +26,10 @@
 
 // //Using a string template or string interpolation method, we can add expressions, which could be a value, or some operations (comparison, arithmetic operations, ternary operation).
 
-// let a = 2
-// let b = 3
-// console.log(`${a} is greater than ${b}: ${a > b}`)
+let a = 2
+let b = 3
+//console.log(`${a} is greater than ${b}: ${a > b}`)
+console.log('a is greater than : ${a > b)')
 
 
 // //String Methods

@@ -17,7 +17,7 @@
 
 
   //Ex 2
-let weather = 'cloudy'
+let weather
 switch (weather) {
   case 'rainy':
     console.log('You need a rain coat.')

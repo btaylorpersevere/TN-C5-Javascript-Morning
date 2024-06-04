@@ -1,4 +1,4 @@
-// //Modifying an array
+/ //Modifying an array
 
 // const numbers = [1, 2, 3, 4, 5]
 // numbers[0] = 10      // changing 1 at index 0 to 10
@@ -26,10 +26,10 @@
 
 // console.log(countries)
 
-// //Methods to manipulate array
-// // There are different methods to manipulate an array. These are some of the available methods to deal with arrays:Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift
+ //Methods to manipulate array
+ // There are different methods to manipulate an array. These are some of the available methods to deal with arrays:Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift
 
-// //Array Constructor:  Create an array
+ //Array Constructor:  Create an array
 
 // const arr = Array() // creates an an empty array
 // console.log(arr)
@@ -37,7 +37,7 @@
 // const eightEmptyValues = Array(8) // it creates eight empty values
 // console.log(eightEmptyValues) // [empty x 8]
 
-// //Using the fill to create values in an array
+ //Using the fill to create values in an array
 // const arr = Array() // creates an an empty array
 // console.log(arr)
 

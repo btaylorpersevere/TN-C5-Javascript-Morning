@@ -39,7 +39,7 @@ console.log(webTechs.join())       // "HTML,CSS,JavaScript,React,Redux,Node,Mong
 console.log(webTechs.join(' # '))  // "HTML # CSS # JavaScript # React # Redux # Node # MongoDB"
 
 //Slice array elements
-Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
+// Slice: To cut out a multiple items in range. It takes two parameters:starting and ending position. It doesn't include the ending position.
 
 const numbers = [1,2,3,4,5]
 
@@ -66,7 +66,7 @@ numbers.splice(3, 3, 7, 8, 9)
 console.log(numbers.splice(3, 3, 7, 8, 9))  // -> [1, 2, 3, 7, 8, 9] //it removes three item and replace three items
 
 //Adding item to an array using push
-Push: adding item in the end. To add item to the end of an existing array we use the push method.
+// Push: adding item in the end. To add item to the end of an existing array we use the push method.
 
 // syntax
 const arr  = ['item1', 'item2','item3']
@@ -90,7 +90,7 @@ fruits.push('lime')
 console.log(fruits)   // ['banana', 'orange', 'mango', 'lemon', 'apple', 'lime']
 
 //Removing the end element using pop
-pop: Removing item in the end.
+// pop: Removing item in the end.
 
 const numbers = [1, 2, 3, 4, 5]
 numbers.pop() // -> remove one item from the end

@@ -22,8 +22,6 @@ const countries = [
     'MongoDB'
   ]
 
-
-  //Answer the following questions using the arrays above
 // Declare an empty array;
 // Declare an array with more than 5 number of elements
 // Find the length of your array
@@ -47,3 +45,5 @@ const countries = [
 // Remove the middle IT company or companies from the array
 // Remove the last IT company from the array
 // Remove all IT companies
+
+

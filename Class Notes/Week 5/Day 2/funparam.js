@@ -1,8 +1,8 @@
-/ //Fiunctions with parameters
+/ //Functions with parameters
 
-// // function with one parameter
+ // function with one parameter
 // function functionName(parm1) {
-    //code goes her
+    //code goes here
 //   }
 //   functionName(parm1) // during calling or invoking one argument needed
   
@@ -26,13 +26,16 @@
 // function functionName(parm1, parm2) {
      //code goes here
 //   }
-//   functionName(parm1, parm2) // during calling or invoking two arguments needed
+//   functionName(parm1, parm2) 
+
+// during calling or invoking two arguments needed
    // Function without parameter doesn't take input, so lets make a function with parameters
 //   function sumTwoNumbers(numOne, numTwo) {
 //     let sum = numOne + numTwo
 //     console.log(sum)
 //   }
 //   sumTwoNumbers(10, 20) // calling functions
+
    // If a function doesn't return it doesn't store data, so it should return
   
 //   function sumTwoNumbers(numOne, numTwo) {
@@ -64,14 +67,14 @@
 //     return sum;
 //   }
 //   const numbers = [1, 2, 3, 4, 5];
-//       //calling a function
+/      //calling a function
 //   console.log(sumArrayValues(numbers));
   
   
-// //       const areaOfCircle = (radius) => {
-// //         let area = Math.PI * radius * radius;
-// //         return area;
-// //       }
+ //       const areaOfCircle = (radius) => {
+ //         let area = Math.PI * radius * radius;
+ //         return area;
+ //       }
 // //   console.log(areaOfCircle(10))
 // Function with a parameter
 // In a function we can pass different data types(number, string, boolean, object, function) as a parameter.
@@ -150,15 +153,15 @@
 // Unlimited number of parameters in regular function
 // A function declaration provides a function scoped arguments array like object. Any thing we passed as argument in the function can be accessed from arguments object inside the functions. Let us see an example
 
-// // Let us access the arguments object
-// ​
+ // Let us access the arguments object
+ ​
 // function sumAllNums() {
 //  console.log(arguments)
 // }
 
 // sumAllNums(1, 2, 3, 4)
-// // Arguments(4) [1, 2, 3, 4, callee: ƒ, Symbol(Symbol.iterator): ƒ]
-// // function declaration
+/ // Arguments(4) [1, 2, 3, 4, calleed: ƒ, Symbol(Symbol.iterator): 
+ // function declaration
 // ​
 // function sumAllNums() {
 //   let sum = 0

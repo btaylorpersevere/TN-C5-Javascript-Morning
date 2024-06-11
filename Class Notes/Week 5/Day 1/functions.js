@@ -17,10 +17,10 @@
 // Let us see how to declare a function and how to call a function.
 
 //declaring a function without a parameter
-function functionName(parametrs) {
+function functionName() {
   // code goes here
 }
-functionName(arguments) // calling function by its name and with parentheses
+functionName() // calling function by its name and with parentheses
 
 // Function without a parameter and return
 // Function can be declared without a parameter.
@@ -44,8 +44,8 @@ function addTwoNumbers() {
 
   console.log(sum)
 }
-
 addTwoNumbers() // a function has to be called by its name to be executed 
+
   function printFullName() {
       let firstName = 'Asabeneh'
       let lastName = 'Yetayeh'
@@ -54,7 +54,7 @@ addTwoNumbers() // a function has to be called by its name to be executed
       console.log(fullName)
 }
 
-printFullName() // calling a function
+printFullName() // calling a function by it's name
 
 // Function returning value
 // Function can also return values, if a function does not return values the value of the function is undefined. Let us write the above functions with return. From now on, we return value to a function instead of printing it.

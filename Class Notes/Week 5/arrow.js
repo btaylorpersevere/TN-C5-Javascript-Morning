@@ -8,88 +8,104 @@ const sumAllNums = (...args) => {
  // instead we use a parameter followed by spread operator (...)
  console.log(args)
 }
-
 sumAllNums(1, 2, 3, 4)
-// [1, 2, 3, 4]
-// function declaration
-​
-const sumAllNums = (...args) => {
-  let sum = 0
-  for (const element of args) {
-    sum += element
-  }
-  return sum
-}
 
-console.log(sumAllNums(1, 2, 3, 4)) // 10
-console.log(sumAllNums(10, 20, 13, 40, 10))  // 93
-console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
+// //declaration Function
+//  function myName(firstName, lastName) {
+//   let fullName = firstName + lastName
+//    console.log(fullName)
+//  }
+//  myName("Bridgett", "Taylor")
 
-// Anonymous Function
 
-// Anonymous function or without name
+// //arrow function
+// const myName = (firstName, lastName) => {
+//   let fullName = firstName + lastName
+//    console.log(fullName)
+//  }
+//  myName("Bridgett", "Taylor")
 
-const anonymousFun = function() {
-  console.log(
-    'I am an anonymous function and my value is stored in anonymousFun'
-  )
-}
-Expression Function
-Expression functions are anonymous functions. After we create a function without a name and we assign it to a variable. To return a value from the function we should call the variable. Look at the example below.
+// }
+// // [1, 2, 3, 4]
+// // function declaration
+// ​
+// const sumAllNums = (...args) => {
+//   let sum = 0
+//   for (const element of args) {
+//     sum += element
+//   }
+//   return sum
+// }
 
-// Function expression
-const square = function(n) {
-  return n * n
-}
+// console.log(sumAllNums(1, 2, 3, 4)) // 10
+// console.log(sumAllNums(10, 20, 13, 40, 10))  // 93
+// console.log(sumAllNums(15, 20, 30, 25, 10, 33, 40))  // 173
 
-console.log(square(2)) // -> 4
-Self Invoking Functions
-Self invoking functions are anonymous functions which do not need to be called to return a value.
+// // Anonymous Function
 
-(function(n) {
-  console.log(n * n)
-})(2) // 4, but instead of just printing if we want to return and store the data, we do as shown below
+// // Anonymous function or without name
 
-let squaredNum = (function(n) {
-  return n * n
-})(10)
+// const anonymousFun = function() {
+//   console.log(
+//     'I am an anonymous function and my value is stored in anonymousFun'
+//   )
+// }
+// Expression Function
+// Expression functions are anonymous functions. After we create a function without a name and we assign it to a variable. To return a value from the function we should call the variable. Look at the example below.
 
-console.log(squaredNum)
-Arrow Function
-Arrow function is an alternative to write a function, however function declaration and arrow function have some minor differences.
+// // Function expression
+// const square = function(n) {
+//   return n * n
+// }
 
-Arrow function uses arrow instead of the keyword function to declare a function. Let us see both function declaration and arrow function.
+// console.log(square(2)) // -> 4
+// Self Invoking Functions
+// Self invoking functions are anonymous functions which do not need to be called to return a value.
 
-// This is how we write normal or declaration function
-// Let us change this declaration function to an arrow function
-function square(n) {
-  return n * n
-}
+// (function(n) {
+//   console.log(n * n)
+// })(2) // 4, but instead of just printing if we want to return and store the data, we do as shown below
 
-console.log(square(2)) // 4
+// let squaredNum = (function(n) {
+//   return n * n
+// })(10)
 
-const square = n => {
-  return n * n
-}
+// console.log(squaredNum)
+// Arrow Function
+// Arrow function is an alternative to write a function, however function declaration and arrow function have some minor differences.
 
-console.log(square(2))  // -> 4
+// Arrow function uses arrow instead of the keyword function to declare a function. Let us see both function declaration and arrow function.
 
-// if we have only one line in the code block, it can be written as follows, explicit return
-const square = n => n * n  // -> 4
-const changeToUpperCase = arr => {
-  const newArr = []
-  for (const element of arr) {
-    newArr.push(element.toUpperCase())
-  }
-  return newArr
-}
+// // This is how we write normal or declaration function
+// // Let us change this declaration function to an arrow function
+// function square(n) {
+//   return n * n
+// }
 
-const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
-console.log(changeToUpperCase(countries))
+// console.log(square(2)) // 4
 
-// ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
-const printFullName = (firstName, lastName) => {
-  return `${firstName} ${lastName}`
-}
+// const square = n => {
+//   return n * n
+// }
 
-console.log(printFullName('Asabeneh', 'Yetayeh'))
+// console.log(square(2))  // -> 4
+
+// // if we have only one line in the code block, it can be written as follows, explicit return
+// const square = n => n * n  // -> 4
+// const changeToUpperCase = arr => {
+//   const newArr = []
+//   for (const element of arr) {
+//     newArr.push(element.toUpperCase())
+//   }
+//   return newArr
+// }
+
+// const countries = ['Finland', 'Sweden', 'Norway', 'Denmark', 'Iceland']
+// console.log(changeToUpperCase(countries))
+
+// // ["FINLAND", "SWEDEN", "NORWAY", "DENMARK", "ICELAND"]
+// const printFullName = (firstName, lastName) => {
+//   return `${firstName} ${lastName}`
+// }
+
+// console.log(printFullName('Asabeneh', 'Yetayeh'))

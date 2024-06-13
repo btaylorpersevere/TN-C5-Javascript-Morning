@@ -1,4 +1,4 @@
-/ //Functions with parameters
+//Functions with parameters
 
  // function with one parameter
 // function functionName(parm1) {
@@ -67,7 +67,7 @@
 //     return sum;
 //   }
 //   const numbers = [1, 2, 3, 4, 5];
-/      //calling a function
+      //calling a function
 //   console.log(sumArrayValues(numbers));
   
   
@@ -160,7 +160,7 @@
 // }
 
 // sumAllNums(1, 2, 3, 4)
-/ // Arguments(4) [1, 2, 3, 4, calleed: ƒ, Symbol(Symbol.iterator): 
+ // Arguments(4) [1, 2, 3, 4, calleed: ƒ, Symbol(Symbol.iterator): 
  // function declaration
 // ​
 // function sumAllNums() {

@@ -120,9 +120,9 @@ Everything can be an object and objects do have properties and properties have v
 
 Creating an empty object
 An empty object
-
+//basic syntax of an object
 const person = {}
-Creating an objecting with values
+Creating an object with values
 Now, the person object has firstName, lastName, age, location, skills and isMarried properties. The value of properties or keys could be a string, number, boolean, an object, null, undefined or a function.
 
 Let us see some examples of object. Each key has a value in the object.
@@ -180,6 +180,7 @@ const person = {
 }
 
 // accessing values using .
+//dot notaion
 console.log(person.firstName)
 console.log(person.lastName)
 console.log(person.age)

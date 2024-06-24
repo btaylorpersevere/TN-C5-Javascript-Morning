@@ -50,8 +50,9 @@ const users = {
     }
   }
 
-  
-  //1. Add your name and login information to this object
-  //2. Get the keys from this object
+  //1. Copy this object into a new object
+  //Get the keys from this object
+ //2.  Add your login information to the new object
+  //.
 
   

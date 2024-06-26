@@ -1,4 +1,5 @@
 const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 const products = [
@@ -18,6 +19,7 @@ Define a callback function before you use it in forEach
 Use forEach to console.log each country in the countries array.
 Use forEach to console.log each name in the names array.
 Use forEach to console.log each number in the numbers array.
+
 Use map to create a new array by changing each country to uppercase in the countries array.
 Use map to create an array of countries length from countries array.
 Use map to create a new array by changing each number to square in the numbers array
